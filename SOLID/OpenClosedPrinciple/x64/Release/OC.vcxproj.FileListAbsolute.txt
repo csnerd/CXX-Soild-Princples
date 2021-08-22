@@ -1,0 +1,2 @@
+E:\C-Soild-Princples\CXX-Soild-Princples\SOLID\x64\Release\OpenClosedPrincple.exe.lastcodeanalysissucceeded
+E:\C-Soild-Princples\CXX-Soild-Princples\SOLID\OC\x64\Release\NativeCodeAnalysis.read.1.tlog

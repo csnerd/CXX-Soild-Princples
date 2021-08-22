@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingleResponsablity", "SingleResponsablity\SingleResponsablity.vcxproj", "{18D4D5BB-EC94-49A1-BDEA-C6949BB68063}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OC", "OC\OC.vcxproj", "{CE2AE552-E7A6-4484-BCD6-31364B95BA8F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenClosedPrincple", "OpenClosedPrinciple\OpenClosedPrinciple.vcxproj", "{CE2AE552-E7A6-4484-BCD6-31364B95BA8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
