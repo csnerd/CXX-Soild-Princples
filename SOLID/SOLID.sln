@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Liskov Substitution", "Lisk
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interface Segregation", "Interface Segregation\Interface Segregation.vcxproj", "{27BF1557-A195-4984-A25E-E95D7DCA4FF6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dependency Injection", "Dependency Injection\Dependency Injection.vcxproj", "{78620AD1-2423-48F3-8A2F-7988F286850D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{27BF1557-A195-4984-A25E-E95D7DCA4FF6}.Release|x64.Build.0 = Release|x64
 		{27BF1557-A195-4984-A25E-E95D7DCA4FF6}.Release|x86.ActiveCfg = Release|Win32
 		{27BF1557-A195-4984-A25E-E95D7DCA4FF6}.Release|x86.Build.0 = Release|Win32
+		{78620AD1-2423-48F3-8A2F-7988F286850D}.Debug|x64.ActiveCfg = Debug|x64
+		{78620AD1-2423-48F3-8A2F-7988F286850D}.Debug|x64.Build.0 = Debug|x64
+		{78620AD1-2423-48F3-8A2F-7988F286850D}.Debug|x86.ActiveCfg = Debug|Win32
+		{78620AD1-2423-48F3-8A2F-7988F286850D}.Debug|x86.Build.0 = Debug|Win32
+		{78620AD1-2423-48F3-8A2F-7988F286850D}.Release|x64.ActiveCfg = Release|x64
+		{78620AD1-2423-48F3-8A2F-7988F286850D}.Release|x64.Build.0 = Release|x64
+		{78620AD1-2423-48F3-8A2F-7988F286850D}.Release|x86.ActiveCfg = Release|Win32
+		{78620AD1-2423-48F3-8A2F-7988F286850D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
