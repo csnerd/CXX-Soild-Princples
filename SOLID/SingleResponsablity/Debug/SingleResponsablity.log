@@ -1,0 +1,12 @@
+﻿  SR.cpp
+E:\C-Soild-Princples\CXX-Soild-Princples\SOLID\SingleResponsablity\SR.cpp(23,17): error C2079: 'ofs' uses undefined class 'std::basic_ofstream<char,std::char_traits<char>>'
+E:\C-Soild-Princples\CXX-Soild-Princples\SOLID\SingleResponsablity\SR.cpp(23,1): error C2440: 'initializing': cannot convert from 'const std::string' to 'int'
+E:\C-Soild-Princples\CXX-Soild-Princples\SOLID\SingleResponsablity\SR.cpp(23,20): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+E:\C-Soild-Princples\CXX-Soild-Princples\SOLID\SingleResponsablity\SR.cpp(25,1): error C2297: '<<': illegal, right operand has type 'const _Elem *'
+          with
+          [
+              _Elem=char
+          ]
+E:\C-Soild-Princples\CXX-Soild-Princples\SOLID\SingleResponsablity\SR.cpp(25,1): error C2563: mismatch in formal parameter list
+E:\C-Soild-Princples\CXX-Soild-Princples\SOLID\SingleResponsablity\SR.cpp(25,1): error C2568: '<<': unable to resolve function overload
+E:\C-Soild-Princples\CXX-Soild-Princples\SOLID\SingleResponsablity\SR.cpp(25,1): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
