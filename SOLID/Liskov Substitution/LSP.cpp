@@ -1,18 +1,24 @@
 
 #include <iostream>
+//
+//struct Shape
+//{
+//	int m_Width;
+//	int m_Height;
+//	virtual int width() const = 0;
+//	virtual void set_width(int m_width) = 0;
+//	virtual int height() const = 0;
+//	virtual void set_height(int m_height) = 0;
+//	virtual int Area()const = 0;
+//};
 
-struct Shape
-{
-	int m_Width;
-	int m_Height;
-	virtual int width() const = 0;
-	virtual void set_width(int m_width) = 0;
-	virtual int height() const = 0;
-	virtual void set_height(int m_height) = 0;
-	virtual int Area()const = 0;
-};
 
-struct Rectangle : public Shape
+/// <summary>
+/// Liskov Substitution Principle the Perant class must be replaceable out substitutable with thier subtypes
+///	the rule of IS-A the child object IS-A parent Object like (Triangle is A shape)
+/// </summary>
+
+struct Rectangle //: public Shape
 {
 	int m_Width;
 	int m_Height;
