@@ -13,7 +13,6 @@ struct Journal //:public IJournal*/
 	/// </summary>
 	std::string m_title;
 	std::vector<std::string> m_entries;
-
 	explicit Journal(const std::string& title)
 		: m_title (title)
 	{
@@ -38,8 +37,9 @@ struct Journal //:public IJournal*/
 	}
 };
 
-
-
+/// <summary>
+/// fix the class for single Resposablity 
+/// </summary>
 
 struct PrintEntirsManager
 {
@@ -107,6 +107,3 @@ auto main(int  argc,char** argv)-> int
 //	}
 //};
 
-/// <summary>
-/// fix the class for single Resposablity 
-/// </summary>
