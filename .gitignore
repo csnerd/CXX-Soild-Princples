@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+/SOLID/.vs/SOLID/v16/Browse.VC.opendb
