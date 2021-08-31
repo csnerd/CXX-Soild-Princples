@@ -26,9 +26,22 @@ struct Engine
 	/**
 	 * \brief 
 	 */
-	float voulme = 5;
-	int hourse_power = 400;
-	
+	float voulme = 0;
+	int hourse_power = 0;
+
+	Engine()
+		: voulme(5),
+		hourse_power(400)
+	{
+		std::cout << voulme << std::endl;
+	}
+
+	Engine(float _voulme, int hourse_power)
+		: voulme(_voulme),
+		  hourse_power(hourse_power)
+	{
+		std::cout << voulme << std::endl;
+	}
 
 	friend std::ostream& operator<<(std::ostream& os, const Engine& obj)
 	{
@@ -73,7 +86,7 @@ int main (int argc, char ** argv)
 	using namespace boost::di;
 	auto injector = make_injector(bind<ILogger>().to<ConsoleLogger>());
 	auto c = injector.create<std::shared_ptr<Car>>();
-
+	c->engine->voulme = 5;
 	std::cout << *c<<std::endl;
 
 	getchar();
